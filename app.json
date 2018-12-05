@@ -1,0 +1,10 @@
+{
+  "pages": [
+    "pages/cards/cards"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationStyle": "custom",
+    "disableScroll": true
+  }
+}

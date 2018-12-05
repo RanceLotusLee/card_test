@@ -1,0 +1,53 @@
+<view class="body-main-box" style="background-color:skyblue;">
+  <!-- 第一张 -->
+  <view class="body-swiper" bindtouchstart="touchstart1" bindtouchend="touchend1" style="z-index:{{index1}};top:{{ballTop1}}rpx;  margin-left:{{ballLeft1}}rpx;width:{{ballWidth1}}rpx;" animation="{{animationData1}}">
+    <!-- 正面 -->
+    <block wx:if="{{isFront1}}">
+      <view class="body-container" style="background-color:#f17925">
+        <text style="text-align:center">卡片1正面</text>
+        <image class="avatar" src="/images/avatar.png"></image>
+      </view>
+    </block>
+    <!-- 反面 -->
+    <block wx:else>
+      <view class="body-container">
+        <text style="text-align:center">卡片1反面</text>
+        <image class="avatar2" src="/images/avatar2.png"></image>
+      </view>
+    </block>
+  </view>
+  <!-- 第二张 -->
+  <view class="body-swiper2" bindtouchstart="touchstart2" bindtouchend="touchend2" style="z-index:{{index2}};top:{{ballTop2}}rpx;margin-left:{{ballLeft2}}rpx;width:{{ballWidth2}}rpx;" animation="{{animationData2}}">
+    <!-- 正面 -->
+    <block wx:if="{{isFront2}}">
+      <view class="body-container" style="background-color:#FCBD00">
+        <text style="text-align:center">卡片2正面</text>
+        <image class="avatar" src="/images/avatar.png"></image>
+      </view>
+    </block>
+    <!-- 反面 -->
+    <block wx:else>
+      <view class="body-container">
+        <text style="text-align:center">卡片2反面</text>
+        <image class="avatar2" src="/images/avatar2.png"></image>
+      </view>
+    </block>
+  </view>
+  <!-- 第三张 -->
+  <view class="body-swiper3" bindtouchstart="touchstart3" bindtouchend="touchend3" style="z-index:{{index3}};top:{{ballTop3}}rpx;  margin-left:{{ballLeft3}}rpx;width:{{ballWidth3}}rpx;" animation="{{animationData3}}">
+    <!-- 正面 -->
+    <block wx:if="{{isFront3}}">
+      <view class="body-container" style="background-color:#52BDC6">
+        <text style="text-align:center">卡片3正面</text>
+        <image class="avatar" src="/images/avatar.png"></image>
+      </view>
+    </block>
+    <!-- 反面 -->
+    <block wx:else>
+      <view class="body-container">
+        <text style="text-align:center">卡片3反面</text>
+        <image class="avatar2" src="/images/avatar2.png"></image>
+      </view>
+    </block>
+  </view>
+</view>

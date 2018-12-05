@@ -1,0 +1,66 @@
+.body-main-box {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.body-swiper {
+  width: 680rpx;
+  height: 900rpx;
+  left: 50%;
+  position: absolute;
+  margin-left: -340rpx;
+  z-index: 3;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 60px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  border-radius: 12px;
+}
+
+.body-swiper2 {
+  width: 640rpx;
+  height: 900rpx;
+  left: 50%;
+  position: absolute;
+  margin-left: -320rpx;
+  z-index: 2;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 60px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  border-radius: 12px;
+}
+
+.body-swiper3 {
+  width: 605rpx;
+  height: 900rpx;
+  left: 50%;
+  position: absolute;
+  margin-left: -302.5rpx;
+  z-index: 1;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 60px rgba(0, 0, 0, 0.06) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.62), 0 0 40px rgba(0, 0, 0, 0.06) inset;
+  border-radius: 12px;
+}
+
+.body-container {
+  width: 100%;
+  height: 900rpx;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.avatar{
+  width: 100%;
+  height: 820rpx;
+}
+
+.avatar2{
+  width: 100%;
+  height: 820rpx;
+}
